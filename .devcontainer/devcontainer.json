@@ -1,0 +1,10 @@
+{
+    "name": "fileconverter",
+    "forwardPorts": [5656],
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "IS_CHINA": "true"
+        }
+    }
+}
