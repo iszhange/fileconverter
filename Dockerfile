@@ -14,6 +14,7 @@ RUN apk update \
     && apk del tzdata \ 
     && apk add libreoffice \
     && apk add libreoffice-lang-zh_cn \
+    && apk add pandoc \
     && apk add openssl \
     && apk add go \
     && apk add openjdk11 \
